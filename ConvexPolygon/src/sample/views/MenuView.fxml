@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: darkblue;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.MenuController">
+   <children>
+   
+       <Button fx:id="db1v" alignment="CENTER" layoutX="265.0" layoutY="60.0" minHeight="50.0" minWidth="270.0" onAction="#diagonalBy1Vertex" prefHeight="68.0" prefWidth="270.0" text="Egy csúcsból húzható átlók száma" />
+       <Button fx:id="allD" layoutX="265.0" layoutY="157.0" minHeight="50.0" minWidth="270.0" onAction="#allDiagonals" prefHeight="68.0" prefWidth="270.0" text="Sokszög átlóinak száma" />
+       <Button fx:id="intd" layoutX="265.0" layoutY="251.0" minHeight="50.0" minWidth="270.0" onAction="#interorAngles" prefHeight="68.0" prefWidth="270.0" text="Belső szögek összege" />
+   </children>
+
+</AnchorPane>
